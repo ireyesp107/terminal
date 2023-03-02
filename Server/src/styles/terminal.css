@@ -1,0 +1,57 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  color: whitesmoke;
+  background-color: rgb(41, 40, 40);
+  font-family: 'Courier New', Courier, monospace;
+}
+.terminal {
+  position:relative;
+  min-height:95vh;  
+}
+
+.repl {
+  margin: auto;    
+  height:5vh;
+}
+
+.history {      
+  height:85vh;   
+  margin: auto;
+  overflow: scroll;  
+  background-color: rgb(54, 54, 54);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.repl-input {        
+  width: 90%;            
+  margin: auto;
+  display: block;
+}
+.submit-button {
+  margin: auto;
+  display: block;
+  border: none;
+  background-color: rgb(128, 128, 128);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(180, 227, 188);
+  cursor: pointer;
+}
+
+.history-entry {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(83, 82, 82);
+  padding: 5px;
+  border-radius: inherit;
+  margin: 5px;
+  text-align: left;
+}
